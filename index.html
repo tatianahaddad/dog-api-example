@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dog-API-Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+      <h1>Random dog generator</h1>
+      <h2>Enter a number between 1 and 50 to see that amount of random dog pictures!</h2>
+
+      <form id="myForm">
+        Enter your number here!
+        <input name="count" type="number" value="3" max="50" min="1" required>
+        <input type="submit" value="submit">
+      </form>
+      <section class="results hidden">
+        <h2>Look at these dogs!</h2>
+        <img class="results-img" alt="placeholder">
+      </section>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
